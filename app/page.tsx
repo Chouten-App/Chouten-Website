@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="text-5xl font-bold">Chouten</h1>
       <h3 className="w-[500px] text-xl text-center">Chouten is an open source multi media consumption app, free to use.</h3>
 
-      <a href="https://discord.gg/8bSKaepXv8" className="bg-white py-2 px-4 rounded-full">Download</a>
+      <a href="https://discord.gg/8bSKaepXv8" className="bg-white py-2 px-4 rounded-full text-black">Download</a>
 
       <div className="border-y-2 border-white flex w-[1000px] gap-8 py-10">
         <div className="flex-1">
