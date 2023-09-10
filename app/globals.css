@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+	.app-bullet-detail {
+		@apply flex-1;
+		@apply text-center;
+		@apply md:text-left;
+		@apply py-8;
+		@apply md:py-0;
+	}
+}
