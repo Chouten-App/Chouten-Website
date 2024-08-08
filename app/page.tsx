@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <main>
       <div className="flex flex-col items-center gap-8 py-20 px-24 lg:max-w-[1200px] lg:justify-center lg:relative lg:translate-x-[-50%] lg:left-[50%]">
-        <img className="w-56 rounded-[24px]" src="/Icon.png" alt="" />
+        <img className="w-56 rounded-[24px]" src="/Icon.png" alt="Chouten Icon" />
         <h1 className="text-3xl md:text-5xl font-bold">Chouten</h1>
-        <h3 className="text-l md:text-xl text-center">Chouten is an open source multi media consumption app, free to use.</h3>
+        <h3 className="text-l md:text-xl text-center">Chouten is an open-source multimedia consumption app, free to use.</h3>
 
         <a href="https://discord.gg/8bSKaepXv8" className="bg-off-white py-2 px-4 rounded-[80px] text-white font-semibold hover:rounded-lg transition-all ease-in-out">Download</a>
 
@@ -24,8 +24,13 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="w-full h-14 flex items-center justify-center">
+      <footer className="w-full h-14 flex flex-col items-center justify-center gap-4 ">
         <h2>Made with <span className="text-red-500 text-2xl">❤</span> by the Chouten Team</h2>
+        <nav>
+          <a href="/terms-of-services" className="text-blue-500 hover:underline">Terms of Service</a>
+          <span className="mx-2">|</span>
+          <a href="/legal-disclaimer" className="text-blue-500 hover:underline">Legal Disclaimer</a>
+        </nav>
       </footer>
     </main>
   )
