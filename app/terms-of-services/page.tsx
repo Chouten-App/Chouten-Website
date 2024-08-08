@@ -62,7 +62,9 @@ export default function TermsOfService() {
     return (
         <main className="py-12 px-4 sm:px-6 lg:px-8 max-w-2xl mx-auto">
             <div className="flex flex-col items-center mb-12">
-                <img className="w-32 rounded-[24px] mb-6" src="/Icon.png" alt="Chouten Icon" />
+                <a href="/">
+                    <img className="w-32 rounded-[24px] mb-6" src="/Icon.png" alt="Chouten Icon" />
+                </a>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">Terms of Service</h1>
             </div>
             
