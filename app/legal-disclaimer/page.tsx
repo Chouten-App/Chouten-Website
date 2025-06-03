@@ -1,4 +1,4 @@
-const email = '<a class="text-blue-500" href="mailto:WIP@chouten.app">WIP</a>';
+const email = '<a class="text-blue-500" href="mailto:contact@chouten.app">Contact Us</a>';
 const disclaimer: Array<{title: string, content: string}> = [
     {
         title: "1. Introduction",
