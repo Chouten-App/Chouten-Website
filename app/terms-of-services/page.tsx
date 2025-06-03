@@ -1,4 +1,4 @@
-const email = '<a class="text-blue-500" href="mailto:contact@chouten.app">Contact Us</a>';
+const email = '<a class="text-blue-500" href="mailto:contact@chouten.app">here</a>';
 const tos: Array<{title: string, content: string}> = [
     {
         title: "1. Introduction",
@@ -25,35 +25,31 @@ const tos: Array<{title: string, content: string}> = [
         content: "In accordance with GDPR, you have the right to access, rectify, erase, restrict processing, object to processing, and data portability of your personal data. To exercise these rights, please contact us at" + " " + email,
     },
     {
-        title: "7. Third-Party Services",
-        content: "Our Service uses Supabase for data storage and management, and Discord for authentication. By using our Service, you also agree to Supabase's Terms of Service and Privacy Policy, as well as Discord's Terms of Service and Privacy Policy."
-    },
-    {
-        title: "8. Disclaimer",
+        title: "7. Disclaimer",
         content: "Your use of the Service is at your sole risk. The Service is provided on an \"AS IS\" and \"AS AVAILABLE\" basis. The Service is provided without warranties of any kind, whether express or implied."
     },
     {
-        title: "9. Limitation of Liability",
+        title: "8. Limitation of Liability",
         content: "In no event shall the Chouten open-source project, nor its contributors, be liable for any indirect or incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Service."
     },
     {
-        title: "10. Changes",
+        title: "9. Changes",
         content: "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any significant changes. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms."
     },
     {
-        title: "11. Termination",
+        title: "10. Termination",
         content: "We may terminate or suspend your access to the Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms. Upon termination, your right to use the Service will cease immediately."
     },
     {
-        title: "12. Indemnification",
+        title: "11. Indemnification",
         content: "You agree to defend, indemnify, and hold harmless the Chouten open-source project and its contributors from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of your use and access of the Service, or a breach of these Terms."
     },
     {
-        title: "13. Distribution and App Stores",
+        title: "12. Distribution and App Stores",
         content: "The Chouten app is distributed through various platforms, including the App Store, Play Store, winget, and Microsoft Store (collectively, \"App Stores\"). Your use of the Service is also subject to the terms and conditions of these App Stores. We are not responsible for any App Store's actions or omissions. If you download the Chouten app from an App Store, you must comply with that App Store's terms and policies."
     },
     {
-        title: "14. Contact Us",
+        title: "13. Contact Us",
         content: "If you have any questions about these Terms, please contact us at" + " " + email,
     }
 ];
